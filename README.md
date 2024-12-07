@@ -33,6 +33,3 @@ The following data matrices are available in the paper's supplementary materials
   - MCPcounter
   - CMScaller
   - gsva
-
-## Contact
-[Xiaofan Lu](lux@igbmc.fr)
