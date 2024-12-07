@@ -32,4 +32,5 @@ The following data matrices are available in the paper's supplementary materials
   - ELMER
   - MCPcounter
   - CMScaller
-  - gsva
+  - GSVA
+  - dplyr
