@@ -49,7 +49,7 @@ rownames(expr_mat) <- Ginfo_filtered$simple # Change to ensemble ID
 colData <- cbind.data.frame(annCol.meth, primary = rownames(annCol.meth))
 mae_enhancer <- createMAE(
   exp = expr_mat,
-  met = orgmeth.desmoid.rmdup[,rownames(annCol.meth)],
+  met = orgmeth.desmoid[,rownames(annCol.meth)],
   save = TRUE,
   colData = colData,
   linearize.exp = FALSE,
